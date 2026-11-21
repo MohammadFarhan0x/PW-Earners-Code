@@ -1,0 +1,125 @@
+/* *{
+    color: orange;
+} */
+
+
+ 
+/* span {
+    color: green;
+} */
+
+/* li,
+a{
+    color: aquamarine;
+} */
+
+/* h3 {
+    color: darkcyan;
+} */
+
+
+/* .hello{
+    color: brown;
+} */
+
+
+
+/* .hello2{
+    background-color: magenta;
+} */
+
+
+
+/* #nihal{
+    color: pink;
+    background-color: yellow;
+} */                                        
+
+
+ 
+/* .earner{
+    color: cadetblue;
+} */
+
+
+
+/* h1{
+    color: burlywood;
+} */
+
+
+
+/* #bhavaya{
+    color: cornflowerblue;
+} */
+
+
+/* div p{
+    color: seagreen;
+} */
+
+
+
+/* div>p {
+    color: gray;
+} */
+
+
+
+/* a+p{
+    color: chartreuse;
+} */
+
+
+
+/* a ~ p {
+    color:rgb(0, 213, 255);
+} */
+
+
+
+
+/* #nihal:hover{
+    background-color: red;
+} */
+
+
+
+/* li:hover{
+    color: blue;
+} */
+
+
+
+/* 
+li:last-child{
+    color: green;
+} */
+
+
+
+
+/* li:nth-child(2n+1){
+    color: blueviolet;
+} */
+
+
+
+/* h1::after{
+    content: " ji";
+} */
+
+
+
+/* h1::first-letter{
+color: blueviolet;
+} */
+
+
+
+/* 
+::selection{
+    color: lightblue;
+    background-color: aqua;
+} */
+

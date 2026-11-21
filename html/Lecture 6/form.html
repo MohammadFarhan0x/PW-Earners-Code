@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <div>
+
+        <form action="welcome.html" target="_blank">
+            <fieldset>
+                <legend> Enter Your Basic Information</legend>
+
+                <label for="Full Name">Full Name:</label>
+                <input type="text" id="Full Name" placeholder="Enter your name" required>
+
+
+                <br><br>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" placeholder="Enter your Email" required>
+
+
+                <br><br>
+                <label for="Password">Password:</label>
+                <input type="password" id="Password" placeholder="Enter your password" required>
+
+
+                <br><br>
+                <label for="checkbox"> Are you 18+ :</label>
+                <input type="checkbox" id="checkbox">
+
+                <br><br>
+                <label for="number">Enter your phone number:</label>
+                <input type=" ph.Number" id="number" required min="0">
+
+                <br><br>
+                <label for="Male">Gender :</label>
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="gender" required>
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" name="gender" required>
+
+                <br><br>
+                <label for="Birth">Enter your D.O.B:</label>
+                <input type="date" id="Birth" required>
+
+                <br><br>
+                <label for="file"> Choose Photo:</label>
+                <input type="file" id=" file">
+                <br><br>
+
+                <label for="City">Select your city:</label>
+                <select name="City" id="City">
+                    <option value="agra">Agra</option>
+                    <option value="ahmadabad">Ahmadabad</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="ranchi">Ranchi</option>
+                    <option value="jaipur" selected>Jaipur</option>
+                </select>
+
+
+                <br><br>
+                <button type="submit"> Submit Form</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

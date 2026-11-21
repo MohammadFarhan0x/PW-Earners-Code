@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    border: 1px solid black;
+    grid-template-columns: repeat(auto-fill , minmax(100px,1fr));
+    background-color: dodgerblue;
+    padding: 10px;
+    /* justify-content:start ; */
+    /* align-content: end; */
+    /* place-content: end space-evenly; */
+    
+    gap: 10px ;
+}
+
+.container div{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    place-content: center;
+    background-color: azure;
+}
+
+

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    /* background-color: greenyellow; */
+    /* width: 400px; */
+    /* height: 400px; */
+    height: 100vh;
+    width: 100vw;
+    /* height: 50%; */
+    font-size: 40px;
+
+}
+
+html{
+    font-size: 20px;
+}
+
+section{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 4rem;
+}

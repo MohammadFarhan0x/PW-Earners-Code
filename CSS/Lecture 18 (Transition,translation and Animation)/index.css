@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    place-content: center;
+    transition-duration: 2s;
+    transition-property: all;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+
+    
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: farhan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute; */
+}  
+
+/* @keyframes sahil{
+    from {
+        background-color: maroon;
+    }
+
+    to {
+        background-color: purple;
+        transform: translate(30px , 50px);
+    }
+} */
+
+/* @keyframes farhan{
+    0%{
+        background-color: maroon;
+        left: 0%;
+    }
+    25%{
+        background-color: purple;
+    }
+    50%{
+        background-color: pink;
+    }
+    75%{
+        background-color: yellow;
+    }
+
+    100%{
+        background-color: green;
+        left: 100%;
+    }
+} */
+
+/* .container:hover > div {
+    width: 500px;
+} */
+
+ /* .linear {
+    transition-timing-function: linear;
+    background-color: hotpink;
+}  */
+
+/* .ease {
+    transition-timing-function: ease;
+    background-color: darkcyan;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+    background-color: lightgreen;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+    background-color: rgb(0, 212, 195);
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+    background-color: palevioletred;
+}  */
+
+
+.btn{
+    background-color: hotpink;
+    padding: 20px 30px;
+    border-radius: 25%;
+    border: none;
+    overflow: hidden;
+    margin: 150px;
+   cursor: pointer;
+   transition-duration: 0.6s;
+   animation: farhan 2s linear 0s infinite alternate;
+}
+
+@keyframes farhan {
+    from {
+
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.btn:hover{
+    /* transform: translate(0px , -5px) scale(1.2) rotate(350deg); */
+}

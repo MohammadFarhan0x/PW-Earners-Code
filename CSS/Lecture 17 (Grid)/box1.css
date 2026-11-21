@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    display: grid;
+    width: 50vw;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.item{
+   border: 1px solid black; 
+   background-color: skyblue;
+   text-align: center;
+   padding: 50px;
+   place-content: center;
+}
+
+.header{
+    grid-column: 1/4;
+}
+
+.side-bar{
+    grid-row: 2/4;
+}
+
+.footer{
+    grid-column: 1/4;
+}
